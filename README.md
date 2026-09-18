@@ -8,7 +8,7 @@
 <br />
 
 <p>
-  <a href="https://colab.research.google.com/github/Prithwi13/6302_stock/blob/main/6302_final_project.ipynb">
+  <a href="https://colab.research.google.com/github/Prithwi13/Equity-AI/blob/main/6302_final_project.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" />
   </a>
   &nbsp;
@@ -23,7 +23,7 @@
 
 <br />
 
-> **EquityAI** is a production-grade, end-to-end agentic equity research pipeline. It ingests live 5-minute OHLCV price bars and financial news headlines, scores sentiment using **FinBERT** (a BERT model fine-tuned on financial text), engineers a rich set of technical and sentiment-decay features, and selects the **best-performing ML model** via time-series-safe cross-validation to predict short-term price direction — then distils all findings into a structured analyst report.
+> **EquityAI** is a notebook-based equity research pipeline. It ingests 5-minute OHLCV price bars and financial news headlines, scores sentiment using **FinBERT** (a BERT model fine-tuned on financial text), engineers technical and sentiment-decay features, and compares models with time-series cross-validation before producing a structured research note.
 
 <br />
 
@@ -62,7 +62,7 @@
 
 ## 🔭 What Is EquityAI?
 
-EquityAI automates the full analytical workflow of an equity research desk — from raw market data collection to a generated investment report — with zero manual intervention. It chains five tightly integrated subsystems:
+EquityAI connects five parts of a short-horizon research workflow, from raw data collection to a generated research note:
 
 ```
 Data Ingestion  →  Sentiment Enrichment  →  Feature Engineering  →  Model Selection  →  Agentic Report
